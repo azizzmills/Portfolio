@@ -1,3 +1,13 @@
+# Hello and Welcome to the portfolio of Azizz Mills :). 
+## This is where creativity meets functionality. As a passionate and skilled web developer, Azizz brings forth a captivating showcase of projects, expertise, and experiences encapsulated within the realms of React. 
+
+
+![portfolio](https://github.com/azizzmills/Portfolio/assets/77420243/c76e65ac-0090-4943-b43d-bfc9ed56d465)
+
+
+
+__________________________________________________________________________________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
