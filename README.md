@@ -2,7 +2,8 @@
 ## This is where creativity meets functionality. As a passionate and skilled web developer, Azizz brings forth a captivating showcase of projects, expertise, and experiences encapsulated within the realms of React. 
 
 
-![portfolio](https://github.com/azizzmills/Portfolio/assets/77420243/c76e65ac-0090-4943-b43d-bfc9ed56d465)
+
+![portfolio2](https://github.com/azizzmills/Portfolio/assets/77420243/3f98b182-8068-4a81-837c-4937adab0ba5)
 
 
 
