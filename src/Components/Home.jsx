@@ -33,7 +33,7 @@ const Home = () =>{
             <MyNavbar/>
             </Row>
             <Row id="Home">
-                <Col>
+                <Col className="disappear">
                 <Lottie animationData={animation}/>
                 </Col>                
             <Col className="d-flex flex-column justify-content-center align-items-center p-4">
@@ -54,9 +54,9 @@ const Home = () =>{
                <Row className="d-flex justify-content-center align-items-center">
                 <Col className="d-flex justify-content-center align-items-center m-2">  
 
-                {/*For the download bleow place the document in the public folder*/}
+                {/*For the download below place the document in the public folder*/}
 
-                <a href="./React-Developer.docx" download="Resume.docx" style={{textDecoration:'none'}}>                  
+                <a href="./React-Resume.docx" download="Resume.docx" style={{textDecoration:'none'}}>                  
                 <Button className="d-flex justify-content-center align-items-center button-background">
                     Resume
                 </Button>               
@@ -68,17 +68,17 @@ const Home = () =>{
                </Row>            
             </Col>            
         </Row>
-        <Row id="About Me">
+        <Row className="d-flex flex-wrap justify-content-center align-items-center" id="About-Me">
         <h1 className="d-flex justify-content-center align-items-center">About Me</h1>
-        <Col className="d-flex justify-content-center align-items-center">                             
+        <Col className="d-flex justify-content-center align-items-center" xs={12} sm={12} md={6} lg={6} xl={6}>                             
                     <Image src={Me} className="profile-picture" alt="Profile picture"/>                              
         </Col>
-        <Col>
+        <Col className="d-flex justify-content-center align-items-center" xs={12} sm={12} md={6} lg={6} xl={6}>
             <ScrollImage pic={
                 <p>
                     I am a passionate front-end developer specializing in React.
-                    With a keen eye for design and a knack for crafting engaging user experiences, 
-                    I thrive on bringing ideas to life through clean, efficient code. <br/><br/>
+                    With a keen eye for design and crafting user experiences, 
+                    I thrive on bringing ideas to life. <br/><br/>
  
                     I've found my niche in front-end development, particularly 
                     with React, where I enjoy leveraging its powerful capabilities to build dynamic,

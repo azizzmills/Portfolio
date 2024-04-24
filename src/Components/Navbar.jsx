@@ -17,7 +17,14 @@ function MyNavbar() {
             duration={2000}
             >
             <Nav.Link className='underlineOnHover'>Home</Nav.Link>
-            </Link>            
+            </Link> 
+            <Link 
+            to='About-Me'
+            duration={2000}
+            offset={-130}
+            >
+            <Nav.Link className='underlineOnHover'>About Me</Nav.Link>
+            </Link>           
             <Link 
             to='Skills'
             duration={2000}

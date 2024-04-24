@@ -39,3 +39,9 @@ body{
 li{
     list-style-type: disc;
 }
+
+@media screen and (max-width: 600px) {
+    .disappear {
+      display: none;
+    }
+  }

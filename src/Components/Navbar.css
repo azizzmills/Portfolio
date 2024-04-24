@@ -13,7 +13,7 @@
     color: blue !important;
     box-shadow: 0px 4px 4px white;
     background: linear-gradient(to bottom, white, black );
-    position: fixed;
+    position: fixed;   
     top: 0;
     left: 0;
     z-index: 1000; /* Ensure the navbar stays on top of other content */
