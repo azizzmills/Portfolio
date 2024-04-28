@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3077050d.css",
-    "main.js": "/Portfolio/static/js/main.3c0c4aff.js",
+    "main.css": "/Portfolio/static/css/main.37e06c64.css",
+    "main.js": "/Portfolio/static/js/main.44407d62.js",
     "static/js/787.f5cda7c5.chunk.js": "/Portfolio/static/js/787.f5cda7c5.chunk.js",
     "static/media/Azizz.png": "/Portfolio/static/media/Azizz.26174a7b2841e7fb91ba.png",
     "static/media/logo - Copy.jpg": "/Portfolio/static/media/logo - Copy.1e22b6c6c5aaac77c704.jpg",
@@ -21,12 +21,12 @@
     "static/media/tailwind.png": "/Portfolio/static/media/tailwind.4345edb37f33e6b4b44e.png",
     "static/media/slot-machine.jpeg": "/Portfolio/static/media/slot-machine.dc2a5d30b666b87b6653.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.3077050d.css.map": "/Portfolio/static/css/main.3077050d.css.map",
-    "main.3c0c4aff.js.map": "/Portfolio/static/js/main.3c0c4aff.js.map",
+    "main.37e06c64.css.map": "/Portfolio/static/css/main.37e06c64.css.map",
+    "main.44407d62.js.map": "/Portfolio/static/js/main.44407d62.js.map",
     "787.f5cda7c5.chunk.js.map": "/Portfolio/static/js/787.f5cda7c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3077050d.css",
-    "static/js/main.3c0c4aff.js"
+    "static/css/main.37e06c64.css",
+    "static/js/main.44407d62.js"
   ]
 }
