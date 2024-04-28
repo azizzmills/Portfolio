@@ -72,13 +72,14 @@ body{
     font-size: 3.5rem;
     text-align: center;
 }
-
+/* it holds the entire carosuel */
 .swiper_container{
-    height: 25rem; /* 52rem original*/
-    width: 80rem;
+    height: 25rem; 
+    width: 100vw; 
     padding: 2rem 0;
     position: relative;
 }
+
 
 .swiper-slide{
     flex-shrink: 1 !important;
@@ -124,6 +125,22 @@ body{
 .slider-controller .swiper-button-next{
     left: 58% !important;
     transform: translateX(-58%) !important;
+}
+
+@media (max-width: 300px){
+    .swiper_container{
+        height: 15rem; /* 47rem original */
+        width: 20rem;
+    }
+    .swiper-slide{
+        flex-shrink: 1 !important;
+        width: 10rem !important; /* 28rem original*/
+        height: 5rem !important; /* 36rem original*/
+    }
+    .swiper-slide img{
+        width: 15rem !important; /* 28rem original*/
+        height: 20rem !important; /* 36rem original*/
+    }
 }
 
 @media (max-width:990px){

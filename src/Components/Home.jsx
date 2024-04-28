@@ -29,10 +29,10 @@ const Home = () =>{
 
     return (      
         <Container fluid className="full-screen">
-            <Row className="bg-color">
+            <Row className="bg-color mb-5">
             <MyNavbar/>
             </Row>
-            <Row id="Home">
+            <Row id="Home" className="mt-5">
                 <Col className="disappear">
                 <Lottie animationData={animation}/>
                 </Col>                
