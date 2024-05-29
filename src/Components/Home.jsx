@@ -11,6 +11,7 @@ import ScrollImage from "./Appearing_animation";
 import ImageSlider from "./Swiper_slider";
 import Work from './images/chosn.jpg'
 import School from './images/Midwestern State.png'
+import Urban from './images/urban.png'
 import Coffee from './images/logo - Copy.jpg'
 import Slot from './images/slot-machine.jpeg'
 import Tic from './images/tic-tac-toe.png'
@@ -102,6 +103,32 @@ const Home = () =>{
         <h1 className="d-flex justify-content-center align-items-center">Career</h1>
         <Col className="d-flex justify-content-center align-items-center">
             <VerticalTimeline>
+            <VerticalTimelineElement
+                    date="May 2024 - Present" 
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }} 
+                    icon={<img src={Urban} style={{height: '100%', width: '100%'}}/>}
+                    contentStyle={{ background: 'blue', color: '#fff' }} 
+                    contentArrowStyle={{ borderRight: '7px solid  blue' }}                  
+                >
+                <h1 className="vertical-timeline-element-title">WordPress Developer/Web Manager</h1>
+                <h2 className="vertical-timeline-element-subtitle" style={{color:'white'}}>
+                    NJ Urban News
+                </h2>
+                <ul>
+                    <li>
+                    Enhanced user experience and engagement, leading to increasing website traffic 
+                    and user retention by 27%.
+                    </li>
+                    <li>
+                    Provided insights into user behavior and website performance, guiding data-driven 
+                    decisions to enhance site effectiveness by 20%.
+                    </li>
+                    <li>
+                    Improved user experience across all platforms, increasing accessibility and user 
+                    satisfaction by 15%
+                    </li>
+                </ul>
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                     date="May 2023 - Present"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -153,7 +180,7 @@ const Home = () =>{
                     documents into CRM-based layouts.
                     </li>
                 </ul>
-                </VerticalTimelineElement>
+                </VerticalTimelineElement>                
             </VerticalTimeline>
         </Col>
         </Row>
